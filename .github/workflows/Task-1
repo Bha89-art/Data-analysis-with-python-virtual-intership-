@@ -1,0 +1,45 @@
+# Create a list of colors
+colors = ["red", "green", "blue"]
+
+# Add a new color to the list
+colors.append("yellow")
+
+# Print the modified list
+print("List of colors:", colors)
+
+# Create a dictionary of student names and their grades
+grades = {
+    "Alice": 90,
+    "Bob": 85,
+    "Charlie": 98
+}
+
+# Update a student's grade in the dictionary
+grades["Bob"] = 92
+
+# Print the updated dictionary
+print("\nStudent grades:", grades)
+
+# Create a set of weekdays
+weekdays = {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday"}
+
+# Sets don't allow duplicates, adding another "Wednesday" won't change it
+weekdays.add("Wednesday")  
+
+# Print the set of weekdays
+print("\nWeekdays:", weekdays)
+
+# Remove "Friday" from the set
+weekdays.remove("Friday")
+
+# Print the modified set of weekdays
+print("\nWeekdays after removing Friday:", weekdays)
+
+Output:
+List of colors: ['red', 'green', 'blue', 'yellow']
+
+Student grades: {'Alice': 90, 'Bob': 92, 'Charlie': 98}
+
+Weekdays: {'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'}
+
+Weekdays after removing Friday: {'Monday', 'Tuesday', 'Wednesday', 'Thursday'}
